@@ -19,6 +19,16 @@ header {
 #logo img{
     width: 100%;
 }
+.ikonice{
+    display: inline-flex;
+    position: absolute;
+    font-size: 4px;
+    color: white;
+    cursor: pointer;
+}
+#check{
+    display: inline-block;
+}
 nav a{
     position: relative;
     text-decoration: none;
@@ -251,6 +261,9 @@ input[type="submit"]:hover {
     font-size: 30px;
     letter-spacing: 10px;
     padding-top: 20px;
+}
+.contact3 ul li a{
+    color: black;
 }
 footer{
     background-color: black;
